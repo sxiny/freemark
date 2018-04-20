@@ -16,7 +16,7 @@ public class CreateTextOutput {
 
     public static void main(String[] args) throws IOException, TemplateException {
 
-        Map<String, Object> map = new HashMap<>();
+        Map<String, Object> map = new HashMap<String, Object>();
         map.put("name", "zhangsan");
         User user = new User();
         user.setId(1);
